@@ -18,6 +18,7 @@ public class FearBaseClass {
 		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 	}
 	public WebDriver driver;
+	
 	@BeforeTest
 	public void openBrowser() {
 	Reporter.log("openbrowser",true);
